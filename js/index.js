@@ -6,6 +6,7 @@ const resultDisplay = document.getElementById("resultDisplay");
 function playGame(playerChoice){
   const computerChoice = choices[Math.floor(Math.random() * 3)];
   let result= "";
+ 
 
   if(playerChoice === computerChoice){
     result = "Tie Game";
@@ -13,13 +14,13 @@ function playGame(playerChoice){
   else{
     switch(playerChoice){
       case "Bear":
-        result = (computerChoice === "Ninja") ? "Player Wins!" : "Computer Loses!";
+        result = (computerChoice === "Ninja") ? "Player Wins!" : "Computer Wins!";
         break;
       case "Ninja":
-        result = (computerChoice === "Hunter") ? "Player Wins!" : "Computer Loses!";
+        result = (computerChoice === "Hunter") ? "Player Wins!" : "Computer Wins!";
         break;
       case "Hunter":
-        result = (computerChoice === "Bear") ? "Player Wins!" : "Computer Loses!";
+        result = (computerChoice === "Bear") ? "Player Wins!" : "Computer Wins!";
         break;
     }
   }
