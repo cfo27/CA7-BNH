@@ -7,8 +7,6 @@ function playGame(playerChoice){
   const computerChoice = choices[Math.floor(Math.random() * 3)];
   let result= "";
   
- 
-
   if(playerChoice === computerChoice){
     result = "Tie Game";
     console.log("Tie Game");
