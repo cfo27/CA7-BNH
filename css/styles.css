@@ -1,6 +1,10 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    background: url('images/10-16-paper.jpg')
+}
+
+body{
+    font-family: "Bebas Neue";
+    font-weight: normal;
     margin: 0;
     display: flex;
     flex-direction: column;
